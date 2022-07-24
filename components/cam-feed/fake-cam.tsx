@@ -1,11 +1,11 @@
 import React from "react";
-import cam from "../../assets/Magnet-Bay.jpg"
 import Image from "next/image"
+import { getCam } from "./cams";
 
 type fakeCamProps = {}
 
 const fakeCam = (props: fakeCamProps) => {
-  return <Image src={cam}/>
+  return <Image src={getCam()}/>
 }
 
 export default fakeCam;

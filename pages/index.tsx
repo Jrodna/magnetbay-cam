@@ -40,6 +40,7 @@ export default function Home() {
           flex-direction: column;
           justify-content: center;
           align-items: center;
+          background: #0a1f44;
         }
 
         main {
